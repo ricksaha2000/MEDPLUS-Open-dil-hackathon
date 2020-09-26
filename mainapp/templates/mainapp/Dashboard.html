@@ -1,0 +1,30 @@
+<html>
+{% load static %}
+    <head>
+    <link rel="stylesheet" type="text/css" href="{% static 'mainapp/Dashboard.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cantarell&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Roboto&display=swap" rel="stylesheet">
+    </head>
+    
+    <body bgcolor = "white">
+        <div class="sidenav">
+        <div class="MainLogo"><img style="height:120px;width:120px;margin-left:30px;margin-bottom:5px;border-radius:50%;" src="{% static 'mainapp/logo.png' %}"></div>
+        <!-- <a href="{% url 'mainapp:account' %}">Profile</a> -->
+        <a href="{% url 'predict:predicter' %}">Self Diagnosis Check</a>
+        <!-- <a href="{% url 'mainapp:report' %}">View Reports</a> -->
+        <a href="{% url 'mainapp:mail' %}">Send Email</a>
+        <!-- <a href="{% url 'mainapp:updateuser' %}">Update Details</a> -->
+        <a href="{% url 'mainapp:logout' %}">Logout</a>
+        </div>
+
+        <!-- Page content -->
+        <div class="main">
+            <p style="font-family:Roboto">Welcome {{ usertype }}</p>
+            <!-- <img style="height:500px;width:900px;padding-top:50px;" src="{% static 'mainapp/sign_up_page.png' %}"> -->
+            <img style="height:500px;width:900px;border-radius:5%;margin-top:25px;margin-left:25px;" src="https://www.bhf.org.uk/-/media/upload/facebook-share-image_v5-1.png">
+        </div>
+    </body>
+    
+    
+</html>
