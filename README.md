@@ -4,6 +4,8 @@ MEDEASY-Open-dil-hackathon
 # Video Demo Link
 https://youtu.be/ceekav_isv0
 
+# PPT ADDED IN THIS REPOSITORY
+
 # INSTRUCTIONS
 **Setup Virtual Environment(LINUX)**
 
@@ -11,7 +13,6 @@ $ virtualenv venv
 
 $ source venv/bin/activate
 
-#PPT ADDED IN THIS REPOSITORY
 
 **Install requirements**
 
