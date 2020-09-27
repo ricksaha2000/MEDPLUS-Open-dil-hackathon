@@ -4,6 +4,20 @@ MEDEASY-Open-dil-hackathon
 # Video Demo Link
 https://youtu.be/ceekav_isv0
 
+# Instructions
+Setup Virtual Environment(LINUX)
+$ virtualenv venv
+$ source venv/bin/activate
+
+Install requirements
+$ pip install -r requirements.txt
+
+Migrate db File
+$ python manage.py makemigrations
+$ python manage.py migrate
+
+Launch server
+$ python manage.py runserver
 
 # Project by Team Parallel Hackers
 Jayit Saha
