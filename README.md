@@ -11,6 +11,7 @@ $ virtualenv venv
 
 $ source venv/bin/activate
 
+#PPT ADDED IN THIS REPOSITORY
 
 **Install requirements**
 
